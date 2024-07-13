@@ -1,0 +1,84 @@
+<div id="review_form_wrapper">
+    <div id="review_form">
+        <div id="respond" class="comment-respond">
+            <span id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow"
+                        id="cancel-comment-reply-link"
+                        href="/alook/index.php/product/brave-football-shirt-copy-2/#respond"
+                        style="display:none;">Cancel reply</a></small></span>
+            <form action="http://localhost/alook/wp-comments-post.php" method="post" id="commentform"
+                class="comment-form">
+                <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span
+                        class="required-field-message">Required fields are marked <span class="required">*</span></span>
+                </p>
+
+
+                <div class="comment-form-rating">
+
+                    <label for="rating">
+                        Your rating&nbsp;
+                        <span class="required">*</span>
+                    </label>
+
+                    <p class="stars selected">
+                        <span>
+                            <a class="star-1" href="#">1</a>
+                            <a class="star-2" href="#">2</a>
+                            <a class="star-3" href="#">3</a>
+                            <a class="star-4 active" href="#">4</a>
+                            <a class="star-5" href="#">5</a>
+                        </span>
+                    </p>
+
+                    <select name="rating" id="rating" required="" style="display: none;">
+                        <option value="">Rate…</option>
+                        <option value="5">Perfect</option>
+                        <option value="4">Good</option>
+                        <option value="3">Average</option>
+                        <option value="2">Not that bad</option>
+                        <option value="1">Very poor</option>
+                    </select>
+
+                </div>
+
+                <p class="comment-form-comment">
+                    <label for="comment">Your review&nbsp;<span class="required">*</span></label>
+                    <textarea id="comment" name="comment" cols="45" rows="8" required=""></textarea>
+                </p>
+                <p class="comment-form-author"><label for="author">Name&nbsp;<span
+                            class="required">*</span></label><input id="author" name="author" type="text" value=""
+                        size="30" required=""></p>
+                <p class="comment-form-email"><label for="email">Email&nbsp;<span
+                            class="required">*</span></label><input id="email" name="email" type="email" value=""
+                        size="30" required=""></p>
+                <p class="comment-form-cookies-consent">
+                    <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox"
+                        value="yes">
+                    <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the
+                        next time I comment.</label>
+                </p>
+                <p class="form-submit">
+
+                    <input name="submit" type="submit" id="submit" class="submit" value="Submit">
+
+                    <input type="hidden" name="comment_post_ID" value="148" id="comment_post_ID">
+                    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                </p>
+            </form>
+        </div><!-- #respond -->
+    </div>
+</div>
+
+
+<!--
+                <div class="col-span-1">
+                    <h1 class="text-3xl font-bold mb-4"><?php the_title(); ?></h1>
+                    <div class="text-gray-700 mb-4"><?php the_content(); ?></div>
+                    <p class="text-xl font-bold mb-4"><?php echo wc_price(get_post_meta(get_the_ID(), '_price', true)); ?></p> 
+                    -->
+<!-- Add to Cart Button -->
+<!-- <?php woocommerce_template_single_add_to_cart(); ?> -->
+<!-- Product Rating -->
+<!-- <div class="mt-4"> -->
+<!-- Add your rating UI here -->
+<!-- </div> -->
+<!-- </div> -->
